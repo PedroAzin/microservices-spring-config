@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shipping
+    username: postgres
+    password: 123456
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        hbm2ddl:
+          auto: update
