@@ -1,12 +1,12 @@
-
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/shipping
+    url: jdbc:postgresql://localhost:5432/provider
     username: postgres
     password: 123456
   jpa:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+        default_schema: shipping
         hbm2ddl:
           auto: update
